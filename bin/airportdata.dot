@@ -1,0 +1,38 @@
+digraph Airports {
+    ATL [label="Hartsfield-Jackson Atlanta International Airport"];
+    LAX [label="Los Angeles International Airport"];
+    ORD [label="Chicago O'Hare International Airport"];
+    DFW [label="Dallas/Fort Worth International Airport"];
+    DEN [label="Denver International Airport"];
+    MCO [label="Orlando International Airport"];
+    ATL -> LAX [label=1947.0, weather=Clear];
+    ATL -> ORD [label=606.0, weather=Cloudy];
+    ATL -> DFW [label=731.0, weather=Thunderstorm];
+    ATL -> DEN [label=1199.0, weather=Windy];
+    ATL -> MCO [label=404.0, weather=Windy];
+    LAX -> ATL [label=1947.0, weather=Clear];
+    LAX -> ORD [label=1744.0, weather=Clear]; 
+    LAX -> DFW [label=1235.0, weather=Windy];
+    LAX -> DEN [label=862.0, weather=Thunderstorm];
+    LAX -> MCO [label=2218.0, weather=Clear];
+    ORD -> ATL [label=606.0, weather=Cloudy];
+    ORD -> LAX [label=1744.0, weather=Clear];
+    ORD -> DFW [label=802.0, weather=Clear];
+    ORD -> DEN [label=888.0, weather=Blizzard];
+    ORD -> MCO [label=1005.0, weather=Clear];
+    DFW -> ATL [label=731.0, weather=Thunderstorm];
+    DFW -> LAX [label=1235.0, weather=Windy];
+    DFW -> ORD [label=802.0, weather=Clear];
+    DFW -> DEN [label=641.0, weather=Clear];
+    DFW -> MCO [label=985.0, weather=Clear];
+    DEN -> ATL [label=1199.0, weather=Windy];
+    DEN -> LAX [label=862.0, weather=Thunderstorm];
+    DEN -> ORD [label=888.0, weather=Blizzard];
+    DEN -> DFW [label=641.0, weather=Clear];
+    DEN -> MCO [label=1546.0, weather=Thunderstorm];
+    MCO -> ATL [label=404.0, weather=Clear];
+    MCO -> LAX [label=2218.0, weather=Clear];
+    MCO -> ORD [label=1005.0, weather=Clear];
+    MCO -> DFW [label=985.0, weather=Clear];
+    MCO -> DEN [label=1546.0, weather=Thunderstorm];
+}
