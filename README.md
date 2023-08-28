@@ -1,18 +1,23 @@
-## Getting Started
+# Airline Flight System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This application will be able to find the shortest flights between a graph of airports. This app would be used by airports and pilots to optimize their flight times. Each node would be an airport in a different city or state, and each edge would be the distance between airports, factoring in constraints such as weather conditions, delays, etc.
 
-## Folder Structure
+## How to use
 
-The workspace contains two folders by default, where:
+### 1) Navigate to AFSFrontendFD.java within IDE
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 2) Run the file
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 3) Load a .dot file for airport graph
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+You can use "src/airportdata.dot" for an example file
 
-## Dependency Management
+Select [L] command, and enter: src/airportdata.dot
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Try the app
+
+Test out all of the commands
+
+
+
+
