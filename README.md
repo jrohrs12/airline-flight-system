@@ -14,7 +14,7 @@ You can use "src/airportdata.dot" for an example file
 
 Select [L] command, and enter: src/airportdata.dot
 
-### Try the app
+### 4) Try out the app
 
 Test out all of the commands
 
